@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/69067c3170.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar resp-height">
+        <ul class="left-nav resp-nav">
+            <div class="logo"><img src="logo.png" alt="logo"></div>
+            <li><a href="pathshala.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="blog.html">Blogs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="right-nav resp-nav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section class="background firstSection">
+        <div class="main-box">
+            <div class="left-box">
+                <p class="large-text">Contact Us</p>
+                <p class="small-text">ApniPathshala exist to help students. We take innovative approach to help students
+                    connect with subject matter they need to master.</p>
+            </div>
+            <div class="right-box">
+                <img src="logo.png" alt="logo">
+            </div>
+        </div>
+    </section>
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3476.1565608439446!2d78.1317936763898!3d29.39497577525713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390bef7e77dfe7f7%3A0x4fbd8e4043e7e532!2sApniPathshala!5e0!3m2!1sen!2sin!4v1681661477092!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h3>Arya Nagar, Opp. Mahadevpuram</h3>
+                        <p>Bijnor, Uttar pradesh, India</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h3>+91 7777777777</h3>
+                        <p>Monday to Saturday, 10 am to 8 pm</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h3>info@ApniPathshala.com</h3>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form onsubmit="sendEmail(); reset(); return false;" action="">
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                    <input type="email" name="mail" id="mail" placeholder="Enter your email" required>
+                    <input type="text" id="subject" placeholder="Enter your subject" required>
+                    <textarea name="txt" id="txt" cols="30" rows="8" placeholder="Message"></textarea>
+                    <button type="submit" class="btn-dark">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p class="medium-text">About Us</p>
+        <p class="small-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam itaque iusto reprehenderit explicabo ab fuga.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+    <script src="js/resp.js"></script>
+</body>
+</html>
